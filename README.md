@@ -1,5 +1,8 @@
 # hcloner
 Apk Cloner
+## 권장사양
+* 사용가능한 메모리 1GB이상
+* 자바 버전 16이상 [Download](https://www.oracle.com/java/technologies/downloads/)
 ## 주의
 * 재배포 <b>절대 금지</b>
 * <b>apksign과 zipalign은 직접 하셔야합니다.</b>
