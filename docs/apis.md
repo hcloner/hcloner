@@ -28,8 +28,6 @@ CPU가 64비트로 동작중이면 true, 아니면 false를 반환합니다.
 int getAvailableProcessors()
 ```
 활성화되어있는 CPU코어의 갯수를 반환합니다.
-
-int를 반환한다 써져있으나 실제로는 long을 반환합니다.(int로 고칠 예정)
 ### 메모리
 JVM에서 사용가능한 힙을 기준으로 작동합니다.
 ```
