@@ -107,6 +107,14 @@ boolean writeAsByte(String path, byte[] content)
 ```
 path에 content를 씁니다. 성공하면 true, 실패하면 false를 반환합니다.
 ```
+boolean move(String from, String to)
+```
+from에 있는 파일을 to로 옮깁니다. 성공하면 true, 실패하면 false를 반환합니다.
+```
+boolean copy(String from, String to)
+```
+from에 있는 파일을 to로 복사합니다. 성공하면 true, 실패하면 false를 반환합니다.
+```
 boolean exists(String path)
 ```
 path에 파일또는 폴더가 있으면 true, 없으면 false를 반환합니다.
